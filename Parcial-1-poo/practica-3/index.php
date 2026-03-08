@@ -1,6 +1,6 @@
 <?php
-    require_once 'clases/Admin.php'; /*Se incluye el contenido del archivo Admin.php, permite el acceso a las clases, funciones o variables definidas en Usuario.php*/
-    require_once 'clases/Alumno.php'; /*Se incluye el contenido del archivo Alumno.php, permite el acceso a las clases, funciones o variables definidas en Usuario.php*/
+    require_once 'clases/Admin.php'; /*Se incluye el contenido del archivo Admin.php, permite el acceso a las clases, funciones o variables definidas*/
+    require_once 'clases/Alumno.php'; /*Se incluye el contenido del archivo Alumno.php, permite el acceso a las clases, funciones o variables definidas*/
     
     try { /*Bloque para la gestión de excepciones. Si se generla una excepción dentro del bloque se puede capturar y gestionar con catch*/
     $objAlumno = new Alumno('Ana Verónica Colín Lozano','anavero.colin@gmail.com', /*Se crea una nueva instancia/objeto para la clase Alumno y se le proveen parámetros*/'22571644');
