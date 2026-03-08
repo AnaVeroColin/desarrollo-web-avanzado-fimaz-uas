@@ -1,5 +1,5 @@
 <?php
-require_once 'Usuario.php'; /*Se le permite a la clase Admin tener acceso al código de Usuario.php*/
+require_once 'Usuario.php'; /*Se le permite a la clase Alumno tener acceso al código de Usuario.php*/
     class Alumno extends Usuario { /*La clase Alumno se hace hija de la clase Usuario*/
             private $matricula; /*Se declara la propiedad privada de matricula*/
 
