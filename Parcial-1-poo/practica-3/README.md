@@ -27,4 +27,6 @@ de Usuario, con el catch se "atrapa" la excepción y se muestra un mensaje
 
 • Evidencia del manejo de errores
 
+Ruta: http://localhost/desarrollo-web-avanzado-fimaz-uas-/parcial-1-poo/practica-3/index.php
+
 <img width="921" height="488" alt="image" src="https://github.com/user-attachments/assets/fdc78fcc-1c78-4d18-9215-22801cb01088" />
