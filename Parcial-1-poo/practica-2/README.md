@@ -23,6 +23,8 @@ Admin:
  
 • Evidencia de ejecución
 
+Ruta: http://localhost/desarrollo-web-avanzado-fimaz-uas-/parcial-1-poo/practica-2/index.php
+
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/78e158cb-5708-49c7-980e-7484229dd653" />
 
 
