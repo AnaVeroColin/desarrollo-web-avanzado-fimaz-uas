@@ -24,7 +24,7 @@ PHP 8+ (XAMPP), Git, GitHub/GitLab
 • Ruta de ejecución en navegador
 
 Después de clonar la carpeta y meterla en htdocs, la ruta es la siguiente:
-http://localhost/desarrollo-web-avanzado-fimaz-uas-/parcial-1-poo/practica-4/index.php
+http://localhost/Desarrollo-Web-Avanzado-Fimaz-UAS/Parcial-1-poo/practica-4/index.php
 
 • Evidencia esperada (tabla + error controlado)
 
