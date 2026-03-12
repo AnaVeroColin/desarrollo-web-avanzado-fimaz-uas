@@ -23,13 +23,13 @@
             <tr>
                 <th>Nombre</th>
                 <th>Correo</th>
-                <th>Rol</td>
+                <th>Rol</th>
                 <th>Matrícula</th>
             </tr>
             </thead>"; /*Tabla en donde se presentarán los datos*/
 
 
-            /*Se utiliza el bucle foreach para mostrar la información de cada usuario en formato de tabla, el nombre, correo electrónico, rol, en el caso de matrícula y empresa, solo si están disponibles, esto siendo evaluado con if y method_exists*/            
+            /*Se utiliza el bucle foreach para mostrar la información de cada usuario en formato de tabla, el nombre, correo electrónico, rol, en el caso de matrícula, solo si está disponible, esto siendo evaluado con if y method_exists*/            
             foreach ($usuarios as $user) { 
 
             $nombre = $user->getNombre();
