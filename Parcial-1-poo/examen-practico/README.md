@@ -28,3 +28,5 @@ http://localhost/Desarrollo-Web-Avanzado-Fimaz-UAS/Parcial-1-poo/examen-practico
 
 • Evidencia esperada (tabla + error controlado)
 <img width="1365" height="722" alt="image" src="https://github.com/user-attachments/assets/50737e07-fc1f-4e2a-955e-2bb330c2e6ab" />
+
+Link del video en drive: https://drive.google.com/file/d/1hmSZBOagHaOfDRg7Ewu8OKd2vMr4Rgtq/view?usp=sharing
