@@ -1,5 +1,6 @@
 <?php
-    class Producto { /*Representa tabla producto, mismos atributos que la tabla*/ /*Models representacion de las entidades de la base de datos*/
+   //Ana Verónica Colín Lozano LISI 3-1//
+   class Producto { /*Representa tabla producto, mismos atributos que la tabla*/ /*Models representacion de las entidades de la base de datos*/
         private $id;
         private $nombre;
         private $descripcion;
