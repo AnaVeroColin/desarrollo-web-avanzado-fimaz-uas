@@ -1,10 +1,13 @@
 <?php
+//Ana Verónica Colín Lozano LISI 3-1//
 require_once 'controllers/ProductoController.php';
 
 $controller = new ProductoController();
 
 $mensaje = "";
 $productoEditar = null;
+//Agregar variable para búsqueda:
+$terminoBusqueda = isset($_GET['buscar']) ? trim($_GET['buscar']) : '';
 
 // ELIMINAR
 if (isset($_GET['eliminar'])) {
@@ -50,6 +53,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mensaje = "Error al agregar el producto.";
         }
     }
+}
+if ($terminoBusqueda !== '') {
+    $productos = $controller->buscar($terminoBusqueda);
+} else {
+    $productos = $controller->listar();
 }
 ?>
 
@@ -125,6 +133,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             Lista de productos
         </div>
         <div class="card-body">
+            <form method="GET" action="" class="row g-2 mb-3">
+                <div class="col-md-10">
+                    <input type="text" name="buscar" class="form-control"
+                        placeholder="Buscar por nombre o descripción"
+                        value="<?php echo htmlspecialchars($terminoBusqueda); ?>">
+                </div>
+                <div class="col-md-2 d-grid">
+                    <button type="submit" class="btn btn-primary">Buscar</button>
+                </div>
+                <?php if ($terminoBusqueda !== ''): ?>
+                    <div class="col-12">
+                        <a href="index.php" class="btn btn-secondary btn-sm">Mostrar todos</a>
+                    </div>
+                <?php endif; ?>
+            </form>
             <table class="table table-bordered table-striped table-hover">
                 <thead class="table-secondary">
                     <tr>
