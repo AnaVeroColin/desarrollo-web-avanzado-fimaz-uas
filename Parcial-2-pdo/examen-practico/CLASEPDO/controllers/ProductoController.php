@@ -1,4 +1,5 @@
 <?php
+//Ana Verónica Colín Lozano LISI 3-1//
     require_once __DIR__ . '/../config/Database.php';
     require_once __DIR__ . '/../models/Producto.php';
 
@@ -58,6 +59,17 @@ public function obtenerPorId($id) {
         $stmt->bindValue(':id', $id, PDO::PARAM_INT);
 
         return $stmt->execute();
+    }
+
+    public function buscar ($termino) {
+        $sql = "SELECT * FROM productos
+        WHERE nombre LIKE :termino
+            OR descripcion LIKE :termino
+        ORDER BY id DESC";
+        $stmt = $this->connection->prepare($sql);
+        $stmt->bindValue(':termino', '%' . $termino. '%');
+        $stmt->execute();
+
         return $stmt->fetchAll();
     }
     }
