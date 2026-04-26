@@ -1,4 +1,5 @@
 <?php
+    //Ana Verónica Colín Lozano lISI 3-1//
     class Database {
     private $host = "localhost:3307";
     private $dbname = "adesarrolloweb";
