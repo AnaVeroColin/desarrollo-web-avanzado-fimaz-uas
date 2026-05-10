@@ -1,4 +1,5 @@
 <?php
+    //ANA VERÓNICA COLÍN LOZANO LIS 3-1
     //Clase para conectarse a la base de datos mediante PDO.
     class DataBase {
         //Atributos
