@@ -1,5 +1,6 @@
-//Ana Verónica Colín Lozano LISI 3-1
+
 <?php
+//Ana Verónica Colín Lozano LISI 3-1
 require_once(__DIR__ . '/../config/DataBase.php');
 class torneosModel {
     public $PDO;

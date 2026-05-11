@@ -1,6 +1,7 @@
-//ANA VERÓNICA COLÍN LOZANO LISI 3-1
+
 <?php
 require_once(__DIR__ . "/../models/torneosModel.php");
+//ANA VERÓNICA COLÍN LOZANO LISI 3-1
 class torneosController
 {
     private $model;
