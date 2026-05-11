@@ -2,7 +2,7 @@
 //Ana Verónica Colín Lozano LISI 3-1
     require_once("../admin/template/header.php");
 ?>
-
+<div class="mx-auto p-5">
 <div class="card text-center">
   <div class="card-header">
     MENÚ
@@ -66,7 +66,7 @@
     Configuración de torneos. Web App BasketBall.
   </div>
 </div>
-
+</div>
 <?php
     require_once("../admin/template/footer.php");
 ?>
